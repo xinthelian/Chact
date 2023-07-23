@@ -1,3 +1,4 @@
-# CHAI-cobweb, CHAC (Continual Hierarchical Adapation through Cobweb)
+# CHAI-cobweb, 
+# or Chact /tʃækt/ (Continual Hierarchical Adaptation through Cobweb Tree)
 
-An integration of human-like incremental and hierarchicial learning system, COBWEB, and continual pragmatics adaption theory, CHAI (Continual Hierarchical Adaption through Inference).
+An integration of human-like incremental and hierarchical learning system, COBWEB, and continual pragmatics adaption theory, CHAI (Continual Hierarchical Adaption through Inference).
