@@ -1,0 +1,5 @@
+===================== Level 1 (Root) =====================
+Speaker:
+RSA framework have the information for every object (100 out of 100).
+But due to the scale of the node, it is pretty hard to seek for one utterance that suits one specific object - 
+All of the utterances are having too little probability for every object.

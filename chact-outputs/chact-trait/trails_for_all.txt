@@ -1,0 +1,411 @@
+Start seeking for object M1:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 428, no appropriate utterance for the object.
+--> Level 4, chactNode 1023, utterance yellow, probability 1.0.
+--> Level 5, chactNode 429, utterance yellow, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M2:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 570, no appropriate utterance for the object.
+--> Level 4, chactNode 3341, no appropriate utterance for the object.
+--> Level 5, chactNode 342, utterance white, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M3:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, utterance gray, probability 0.369.
+--> Level 3, chactNode 696, utterance smooth, probability 0.419.
+--> Level 4, chactNode 1480, utterance gray, probability 0.17.
+--> Level 5, chactNode 4221, utterance smooth, probability 1.0.
+--> Level 6, chactNode 2908, utterance gray, probability 1.0.
+--> Level 7, chactNode 2909, utterance gray, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M4:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 428, no appropriate utterance for the object.
+--> Level 4, chactNode 2829, no appropriate utterance for the object.
+--> Level 5, chactNode 108, utterance yellow, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M5:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, utterance bell, probability 0.5.
+--> Level 3, chactNode 570, no appropriate utterance for the object.
+--> Level 4, chactNode 870, utterance white, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M6:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, utterance bell, probability 0.5.
+--> Level 3, chactNode 570, no appropriate utterance for the object.
+--> Level 4, chactNode 579, utterance yellow, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M7:
+--> Level 1, chactNode 2, utterance meadows, probability 0.333.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 428, utterance meadows, probability 0.333.
+--> Level 4, chactNode 1535, no appropriate utterance for the object.
+--> Level 5, chactNode 466, utterance yellow, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M8:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 570, no appropriate utterance for the object.
+--> Level 4, chactNode 371, utterance smooth, probability 1.0.
+--> Level 5, chactNode 379, utterance yellow, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M9:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 696, no appropriate utterance for the object.
+--> Level 4, chactNode 1480, utterance brown, probability 1.0.
+--> Level 5, chactNode 4221, utterance brown, probability 1.0.
+--> Level 6, chactNode 2908, utterance brown, probability 1.0.
+--> Level 7, chactNode 697, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M10:
+--> Level 1, chactNode 2, utterance sunken, probability 1.0.
+--> Level 2, chactNode 107, utterance sunken, probability 1.0.
+--> Level 3, chactNode 696, utterance sunken, probability 1.0.
+--> Level 4, chactNode 2310, utterance gray, probability 1.0.
+--> Level 5, chactNode 907, utterance gray, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M11:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 696, utterance white, probability 1.0.
+--> Level 4, chactNode 1480, utterance white, probability 1.0.
+--> Level 5, chactNode 4221, utterance white, probability 1.0.
+--> Level 6, chactNode 4229, utterance white, probability 1.0.
+--> Level 7, chactNode 603, utterance white, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M12:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 570, no appropriate utterance for the object.
+--> Level 4, chactNode 371, utterance meadows, probability 1.0.
+--> Level 5, chactNode 264, utterance yellow, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M13:
+--> Level 1, chactNode 2, utterance meadows, probability 0.333.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 428, utterance meadows, probability 0.333.
+--> Level 4, chactNode 1535, utterance white, probability 1.0.
+--> Level 5, chactNode 3050, utterance white, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M14:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 696, no appropriate utterance for the object.
+--> Level 4, chactNode 2310, utterance flat, probability 1.0.
+--> Level 5, chactNode 3802, utterance flat, probability 1.0.
+--> Level 6, chactNode 2311, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M15:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, utterance woods, probability 0.5.
+--> Level 3, chactNode 696, utterance smooth, probability 0.581.
+--> Level 4, chactNode 1480, utterance yellow, probability 0.5.
+--> Level 5, chactNode 4053, utterance smooth, probability 1.0.
+--> Level 6, chactNode 4054, utterance yellow, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M16:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, utterance paths, probability 0.407.
+--> Level 3, chactNode 428, utterance brown, probability 0.5.
+--> Level 4, chactNode 1988, utterance paths, probability 1.0.
+--> Level 5, chactNode 1233, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+--> Level 2, chactNode 282, utterance edible, probability 1.0.
+--> Level 3, chactNode 1155, utterance edible, probability 1.0.
+--> Level 4, chactNode 503, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M17:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, utterance woods, probability 0.5.
+--> Level 3, chactNode 696, no appropriate utterance for the object.
+--> Level 4, chactNode 1480, utterance yellow, probability 0.5.
+--> Level 5, chactNode 4053, utterance fibrous, probability 1.0.
+--> Level 6, chactNode 1488, utterance yellow, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M18:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 570, no appropriate utterance for the object.
+--> Level 4, chactNode 371, no appropriate utterance for the object.
+--> Level 5, chactNode 3, utterance yellow, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M19:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, utterance paths, probability 0.407.
+--> Level 3, chactNode 428, no appropriate utterance for the object.
+--> Level 4, chactNode 2829, utterance paths, probability 0.5.
+--> Level 5, chactNode 2853, utterance convex, probability 1.0.
+--> Level 6, chactNode 2643, utterance yellow, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M20:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 696, no appropriate utterance for the object.
+--> Level 4, chactNode 2310, utterance convex, probability 1.0.
+--> Level 5, chactNode 3802, utterance convex, probability 1.0.
+--> Level 6, chactNode 3803, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M21:
+--> Level 1, chactNode 2, utterance meadows, probability 0.333.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 428, utterance meadows, probability 0.333.
+--> Level 4, chactNode 1535, utterance smooth, probability 1.0.
+--> Level 5, chactNode 1536, utterance yellow, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M22:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 428, no appropriate utterance for the object.
+--> Level 4, chactNode 2829, utterance white, probability 1.0.
+--> Level 5, chactNode 2220, utterance white, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M23:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 570, utterance convex, probability 1.0.
+--> Level 4, chactNode 3341, utterance convex, probability 1.0.
+--> Level 5, chactNode 980, utterance white, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M24:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, utterance paths, probability 0.186.
+--> Level 3, chactNode 428, utterance flat, probability 1.0.
+--> Level 4, chactNode 2829, utterance flat, probability 1.0.
+--> Level 5, chactNode 2853, utterance flat, probability 1.0.
+--> Level 6, chactNode 2854, utterance yellow, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M25:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 428, utterance brown, probability 0.5.
+--> Level 4, chactNode 1988, utterance grasses, probability 1.0.
+--> Level 5, chactNode 1989, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M26:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 428, no appropriate utterance for the object.
+--> Level 4, chactNode 1023, utterance white, probability 1.0.
+--> Level 5, chactNode 1024, utterance white, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M27:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, utterance gray, probability 0.369.
+--> Level 3, chactNode 696, no appropriate utterance for the object.
+--> Level 4, chactNode 1480, utterance gray, probability 0.83.
+--> Level 5, chactNode 4221, utterance flat, probability 0.5.
+--> Level 6, chactNode 4229, utterance gray, probability 1.0.
+--> Level 7, chactNode 4230, utterance gray, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M28:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 107, no appropriate utterance for the object.
+--> Level 3, chactNode 570, no appropriate utterance for the object.
+--> Level 4, chactNode 3341, utterance grasses, probability 1.0.
+--> Level 5, chactNode 4167, utterance white, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M29:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 2031, utterance urban, probability 0.5.
+--> Level 4, chactNode 3223, utterance convex, probability 1.0.
+--> Level 5, chactNode 44, utterance brown, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M30:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, utterance white, probability 0.129.
+--> Level 3, chactNode 1155, no appropriate utterance for the object.
+--> Level 4, chactNode 640, utterance white, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M31:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, utterance white, probability 0.871.
+--> Level 3, chactNode 1155, no appropriate utterance for the object.
+--> Level 4, chactNode 2418, utterance white, probability 1.0.
+--> Level 5, chactNode 69, utterance white, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M32:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 2031, utterance grasses, probability 0.5.
+--> Level 4, chactNode 2059, utterance convex, probability 1.0.
+--> Level 5, chactNode 829, utterance brown, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M33:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 1155, no appropriate utterance for the object.
+--> Level 4, chactNode 2418, utterance brown, probability 1.0.
+--> Level 5, chactNode 99, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+--> Level 3, chactNode 1771, utterance grasses, probability 0.5.
+--> Level 4, chactNode 4319, utterance convex, probability 1.0.
+--> Level 5, chactNode 3267, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M34:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 1155, utterance flat, probability 1.0.
+--> Level 4, chactNode 792, utterance flat, probability 1.0.
+--> Level 5, chactNode 1872, utterance white, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M35:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 1771, no appropriate utterance for the object.
+--> Level 4, chactNode 1, utterance brown, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M36:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 1155, utterance smooth, probability 0.333.
+--> Level 4, chactNode 792, utterance urban, probability 1.0.
+--> Level 5, chactNode 12, utterance white, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M37:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 1155, utterance smooth, probability 0.333.
+--> Level 4, chactNode 792, no appropriate utterance for the object.
+--> Level 5, chactNode 138, utterance white, probability 1.0.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M38:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 1771, utterance flat, probability 0.5.
+--> Level 4, chactNode 4319, no appropriate utterance for the object.
+--> Level 5, chactNode 4327, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M39:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 1771, utterance flat, probability 0.5.
+--> Level 4, chactNode 4319, utterance urban, probability 1.0.
+--> Level 5, chactNode 1772, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M40:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 2031, utterance urban, probability 0.5.
+--> Level 4, chactNode 3223, utterance flat, probability 1.0.
+--> Level 5, chactNode 1365, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.
+
+
+Start seeking for object M41:
+--> Level 1, chactNode 2, no appropriate utterance for the object.
+--> Level 2, chactNode 282, no appropriate utterance for the object.
+--> Level 3, chactNode 2031, utterance grasses, probability 0.5.
+--> Level 4, chactNode 2059, utterance flat, probability 1.0.
+--> Level 5, chactNode 671, utterance brown, probability 1.0.
+    Note that, this is the only object for this node.
+Reach the leaf. End of trail.

@@ -1,0 +1,11 @@
+,edible,costs
+yellow,5.0,0.0
+convex,5.0,0.0
+scaly,5.0,0.0
+free,5.0,0.0
+closed,5.0,0.0
+grasses,2.0,0.0
+meadows,1.0,0.0
+paths,2.0,0.0
+prior,1.0,
+alpha,4.0, 

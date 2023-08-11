@@ -1,0 +1,16 @@
+,poisonous,edible,costs
+brown,19.0,4.0,0.0
+convex,26.0,3.0,0.0
+scaly,20.0,2.0,0.0
+free,28.0,7.0,0.0
+closed,28.0,7.0,0.0
+urban,28.0,5.0,0.0
+smooth,8.0,0.0,0.0
+paths,0.0,2.0,0.0
+white,9.0,0.0,0.0
+gray,0.0,3.0,0.0
+sunken,0.0,3.0,0.0
+fibrous,0.0,5.0,0.0
+flat,2.0,1.0,0.0
+prior,0.8,0.2,
+alpha,2.0, , 

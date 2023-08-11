@@ -1,0 +1,7 @@
+,M17,M15,costs,entropy
+fibrous,1.0,0.0,0.0,0.0
+smooth,0.0,1.0,0.0,0.0
+prior,0.667,0.333,,
+alpha,5.0, , , 
+entropy,0.0,0.0,,
+entropy_sum,0.0, , , 

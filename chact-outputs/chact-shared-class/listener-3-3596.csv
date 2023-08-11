@@ -1,0 +1,8 @@
+,poisonous,edible,costs,entropy
+urban,1.0,0.0,0.0,0.0
+flat,1.0,0.0,0.0,0.0
+paths,0.0,1.0,0.0,0.0
+prior,0.846,0.154,,
+alpha,3.0, , , 
+entropy,0.0,0.0,,
+entropy_sum,0.0, , , 

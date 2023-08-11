@@ -1,0 +1,15 @@
+,edible,costs
+white,1.0,0.0
+flat,2.0,0.0
+fibrous,5.0,0.0
+free,7.0,0.0
+crowded,7.0,0.0
+grasses,4.0,0.0
+brown,1.0,0.0
+convex,5.0,0.0
+yellow,3.0,0.0
+woods,3.0,0.0
+gray,2.0,0.0
+smooth,2.0,0.0
+prior,1.0,
+alpha,3.0, 

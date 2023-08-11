@@ -1,0 +1,13 @@
+,poisonous,edible,costs,entropy
+brown,1.0,0.0,0.0,0.004
+convex,1.0,0.0,0.0,0.001
+smooth,1.0,0.0,0.0,0.0
+free,1.0,0.0,0.0,0.004
+closed,1.0,0.0,0.0,0.004
+urban,1.0,0.0,0.0,0.004
+flat,0.978,0.022,0.0,0.151
+fibrous,0.0,1.0,0.0,0.0
+prior,0.8,0.2,,
+alpha,3.0, , , 
+entropy,0.027,0.027,,
+entropy_sum,0.054, , , 

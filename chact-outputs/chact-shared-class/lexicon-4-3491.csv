@@ -1,0 +1,10 @@
+,poisonous,edible,costs
+white,8.0,2.0,0.0
+convex,8.0,2.0,0.0
+scaly,8.0,2.0,0.0
+free,8.0,2.0,0.0
+closed,8.0,2.0,0.0
+grasses,8.0,1.0,0.0
+meadows,0.0,1.0,0.0
+prior,0.8,0.2,
+alpha,4.0, , 

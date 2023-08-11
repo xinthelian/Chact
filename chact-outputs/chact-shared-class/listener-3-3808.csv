@@ -1,0 +1,11 @@
+,poisonous,edible,costs,entropy
+smooth,1.0,0.0,0.0,0.0
+free,1.0,0.0,0.0,0.0
+closed,1.0,0.0,0.0,0.0
+grasses,0.611,0.389,0.0,0.964
+urban,1.0,0.0,0.0,0.0
+yellow,0.0,1.0,0.0,0.0
+prior,0.786,0.214,,
+alpha,3.0, , , 
+entropy,0.341,0.114,,
+entropy_sum,0.455, , , 

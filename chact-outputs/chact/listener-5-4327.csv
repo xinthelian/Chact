@@ -1,0 +1,12 @@
+,M69,costs,entropy
+brown,1.0,0.0,0.0
+flat,1.0,0.0,0.0
+scaly,1.0,0.0,0.0
+poisonous,1.0,0.0,0.0
+free,1.0,0.0,0.0
+closed,1.0,0.0,0.0
+grasses,1.0,0.0,0.0
+prior,1.0,,
+alpha,5.0, , 
+entropy,0.0,,
+entropy_sum,0.0, , 

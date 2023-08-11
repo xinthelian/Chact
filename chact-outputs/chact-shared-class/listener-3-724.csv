@@ -1,0 +1,11 @@
+,edible,costs,entropy
+free,1.0,0.0,0.0
+crowded,1.0,0.0,0.0
+grasses,1.0,0.0,0.0
+yellow,1.0,0.0,0.0
+woods,1.0,0.0,0.0
+gray,1.0,0.0,0.0
+prior,1.0,,
+alpha,3.0, , 
+entropy,0.0,,
+entropy_sum,0.0, , 

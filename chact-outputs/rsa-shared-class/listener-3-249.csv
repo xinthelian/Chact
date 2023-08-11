@@ -1,0 +1,16 @@
+,edible,costs,entropy
+yellow,1.0,0.0,0.0
+bell,1.0,0.0,0.0
+scaly,1.0,0.0,0.0
+free,1.0,0.0,0.0
+closed,1.0,0.0,0.0
+grasses,1.0,0.0,0.0
+meadows,1.0,0.0,0.0
+white,1.0,0.0,0.0
+flat,1.0,0.0,0.0
+paths,1.0,0.0,0.0
+convex,1.0,0.0,0.0
+prior,1.0,,
+alpha,3.0, , 
+entropy,0.0,,
+entropy_sum,0.0, , 

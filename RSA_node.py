@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from concept_formation.RSA import RSA
+from RSA import RSA
 
 
 def no_classification(dicts):
@@ -25,7 +25,7 @@ class RSA_CobwebNode_refer:
 	The depth of the node in its corresponding tree.
 	"""
 
-	def __init__(self, node, state_name, include_name=False, level=1.0):
+	def __init__(self, node, state_name='name', include_name=False, level=1.0):
 		self.instances = node.instances
 		self.count = len(node.instances)
 		self.include_name = include_name
@@ -185,3 +185,12 @@ class RSA_CobwebNode_classification:
 		Display the RSA framework.
 		"""
 		self.RSA.display()
+
+
+# class RSA_node(RSA_CobwebNode_refer, RSA_CobwebNode_classification):
+
+# 	def __init__(self, node, task='refer'):
+# 		if task in ('refer', 'refering', 'referring', 'refer game', 'referring game', 'refering game'):
+# 			RSA_CobwebNode_refer.__init__(self, node)
+# 		else:
+# 			RSA_CobwebNode_classification.__init__(self, node)

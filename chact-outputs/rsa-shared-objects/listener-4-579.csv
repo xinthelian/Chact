@@ -1,0 +1,12 @@
+,M6,costs,entropy
+yellow,1.0,0.0,0.0
+bell,1.0,0.0,0.0
+smooth,1.0,0.0,0.0
+edible,1.0,0.0,0.0
+free,1.0,0.0,0.0
+closed,1.0,0.0,0.0
+meadows,1.0,0.0,0.0
+prior,1.0,,
+alpha,4.0, , 
+entropy,0.0,,
+entropy_sum,0.0, , 

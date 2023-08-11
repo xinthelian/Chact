@@ -1,0 +1,9 @@
+,edible,costs
+gray,1.0,0.0
+convex,1.0,0.0
+smooth,1.0,0.0
+free,1.0,0.0
+crowded,1.0,0.0
+grasses,1.0,0.0
+prior,1.0,
+alpha,6.0, 

@@ -1,0 +1,7 @@
+,M36,M44,costs,entropy
+convex,1.0,0.0,0.0,0.0
+grasses,0.0,1.0,0.0,0.0
+prior,0.167,0.167,,
+alpha,4.0, , , 
+entropy,0.0,0.0,,
+entropy_sum,0.0, , , 

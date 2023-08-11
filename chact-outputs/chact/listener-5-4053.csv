@@ -1,0 +1,7 @@
+,M28,M26,M21,costs,entropy
+fibrous,0.5,0.5,0.0,0.0,1.0
+smooth,0.0,0.0,1.0,0.0,0.0
+prior,0.333,0.333,0.333,,
+alpha,5.0, , , , 
+entropy,0.167,0.167,0.0,,
+entropy_sum,0.333, , , , 

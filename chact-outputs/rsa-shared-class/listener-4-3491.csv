@@ -1,0 +1,12 @@
+,poisonous,edible,costs,entropy
+white,1.0,0.0,0.0,0.0
+convex,1.0,0.0,0.0,0.0
+scaly,1.0,0.0,0.0,0.0
+free,1.0,0.0,0.0,0.0
+closed,1.0,0.0,0.0,0.0
+grasses,1.0,0.0,0.0,0.0
+meadows,0.0,1.0,0.0,0.0
+prior,0.8,0.2,,
+alpha,4.0, , , 
+entropy,0.0,0.0,,
+entropy_sum,0.0, , , 

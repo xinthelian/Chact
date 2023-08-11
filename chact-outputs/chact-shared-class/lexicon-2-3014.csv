@@ -1,0 +1,19 @@
+,edible,poisonous,costs
+white,8.0,6.0,0.0
+flat,2.0,2.0,0.0
+fibrous,5.0,0.0,0.0
+free,21.0,11.0,0.0
+crowded,7.0,0.0,0.0
+grasses,7.0,8.0,0.0
+brown,1.0,5.0,0.0
+convex,9.0,9.0,0.0
+yellow,10.0,0.0,0.0
+woods,3.0,0.0,0.0
+smooth,16.0,11.0,0.0
+closed,14.0,11.0,0.0
+urban,0.0,3.0,0.0
+bell,10.0,0.0,0.0
+meadows,11.0,0.0,0.0
+gray,2.0,0.0,0.0
+prior,0.65625,0.34375,
+alpha,2.0, , 

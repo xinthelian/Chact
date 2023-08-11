@@ -1,0 +1,11 @@
+,poisonous,edible,costs,entropy
+white,0.667,0.333,0.0,0.918
+convex,0.667,0.333,0.0,0.918
+smooth,0.667,0.333,0.0,0.918
+free,0.667,0.333,0.0,0.918
+closed,0.667,0.333,0.0,0.918
+grasses,0.667,0.333,0.0,0.918
+prior,0.667,0.333,,
+alpha,5.0, , , 
+entropy,1.56,1.057,,
+entropy_sum,2.617, , , 
