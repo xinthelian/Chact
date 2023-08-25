@@ -1,3 +1,9 @@
+"""
+ChaiNode and ChactNode Modules.
+Thanks to Chris MacLellan (and any potential contributors, like Erik Harpstead. and me) 
+for their commitment of the original Cobweb Modules.
+"""
+
 import numpy as np
 import pandas as pd
 from IPython.display import display
@@ -873,7 +879,7 @@ class chactNode(chaiNode):
 			self.listener.to_csv(listener_file, index=True)
 
 
-	def _trail_iter(self, obj):
+	def _trail_iter_object(self, obj):
 		# Used for trail function in chactTree
 		if obj in self.rational_listener.columns:
 			listener = self.rational_listener.iloc[:-4, :-2]
@@ -892,23 +898,26 @@ class chactNode(chaiNode):
 		else:
 			for child in self.children:
 				if obj in child.objects:
-					child._trail_iter(obj)
+					child._trail_iter_object(obj)
 
+	def _trail_iter_utter(self, inst):
 
+		utterances = list(inst.values())
+		for utter in utterances:
+			print("\nUtterance: {}".format(utter))
+			if utter in self.rational_listener.index:
+				listener = self.rational_listener.iloc[:-4, :-2]
+				obj = pd.to_numeric(listener.loc[utter]).idxmax()
+				prob = listener.loc[utter, obj]
+				print("--> Level {}, chactNode {}, object {}, probability {}.".format(self.level(), self.concept_id, obj, prob))
+				if prob == 1.:
+					if self.count == 1:
+						print("    Note that, this is the only object for this node.")
+			else:
+				print("--> Level {}, chactNode {}, no appropriate object for the utterance.".format(self.level(), self.concept_id))
 
+		if self.parent is not None:
+			self.parent._trail_iter_utter(inst)
+		else:
+			print("Reach the root. End of trail.")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	

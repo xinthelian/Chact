@@ -110,18 +110,33 @@ def profile_data(data, display=True, obj=False):
 # Display the profile of the data, mushrooms.
 # profile = profile_data(mushrooms)
 
-# Fit the tree:
+"""
+Fit the tree
+"""
 tree = chactTree(reserve_obj=False, chai_obj=False)
 print("START TREE FITTING...")
 for mushroom in tqdm(mushrooms, desc="Processing", unit="item"):
 	tree.ifit(mushroom)
-visualize(tree)
+visualize(tree)  # visualize the CobwebTree
 
-# tree.chai(verbose=True, rsa=True)
-tree.chai(verbose=True, rsa=True)
-# tree.display_chai(level=7)
-# tree.save_chai()
+# Then fit it as a ChaiTree with introduction of CHAI framework for every node:
+tree.chai(verbose=True)
 
-# loop = ["M%d" % i for i in range(1, count)]
-# tree.trail(obj=loop)
-tree.trail("M33")
+"""
+Functionalities
+"""
+
+# Display the framework of level 7:
+tree.display_chai(level=7)
+
+# Save framework for all the nodes:
+tree.save_chai()
+
+# Trail objects:
+tree.trail_object(["M2", "M11"])
+
+# Trail utterances:
+inst = {'cap-surface': 'scaly', 'cap-shape': 'convex'}
+tree.trail_utter(inst)
+
+

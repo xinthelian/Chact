@@ -1,3 +1,9 @@
+"""
+ChactTree Module.
+Thanks to Chris MacLellan (and any potential contributors, like Erik Harpstead. and me) 
+for their commitment of the original Cobweb Modules.
+"""
+
 from __future__ import print_function
 from __future__ import unicode_literals
 from __future__ import absolute_import
@@ -13,28 +19,12 @@ from chact.nodes import chactNode
 
 class chactTree(object):
 
-	# def __init__(self, task='refer', prior=None, costs=None):
-
-		# self.cobweb_tree = tree
-		# self.lexicon = lexicon
-		# self.root = tree.root
-
-		# self.children = node.children
-		# self.task = task  # 'refer' or 'class'
-
-		# if len(self.children) < 1:
-
-		# if self.node.count < 1:
-		# 	raise ValueError("There is no instance for this node.")
-		# self.probs_children = self._prob_children()
-
-		# if len(self.children) < 1:
-		# 	if task in ('refer', 'refering', 'referring', 'refer game', 'referring game', 'refering game'):
-
-		# 首先，fit好一个tree（可能不能inherit，只能把所有CobwebTree的东西复制过来）
-		# 当然fit的node都是ChaiNode.
-		# 这个时候没有建立ChaiTree。
-		# 然后再这个module里面设置一个function用于建立ChaiTree, from bottom to top.每个遍历过的node进行activate
+    """
+    The structure of a ChactTree.
+    Designed based on an original CobwebTree with additional functionalities and updated Nodes.
+    To fit a chactTree, first fit the tree as a CobwebTree.
+    Then from down to top, fit the CHAI framework for every node in the tree. (with self.chai())
+    """
 
     def __init__(self, reserve_obj=True, chai_obj=False):
         """
@@ -199,6 +189,7 @@ class chactTree(object):
 
         return temp_instance
 
+
     def categorize(self, instance):
         self._sanity_check_instance(instance)
         return self._cobweb_categorize(instance)
@@ -206,7 +197,7 @@ class chactTree(object):
 
     def chai(self, verbose=True, rsa=False):
         """
-        The core functionality of CHAI model.
+        The core functionality of the CHAI framework.
         """
         sequence = []
         dfs(self.root, sequence)
@@ -281,7 +272,7 @@ class chactTree(object):
         print("The files are named in the format 'lexicon/listener/speaker-level-concept_id'.")
 
 
-    def trail(self, obj):
+    def trail_object(self, obj):
 
         def is_iterable(variable):
             try:
@@ -296,13 +287,28 @@ class chactTree(object):
             for i in obj:
                 if i not in self.root.objects:
                     raise ValueError("{} is not an object in the tree.".format(i))
-                print("\n\nStart seeking for object {}:".format(i))
-                print("Original {}:", )
-                self.root._trail_iter(i)
+                print("\n\nStart seeking for utterances that fit object {}:".format(i))
+                # print("Original {}:", )
+                self.root._trail_iter_object(i)
         else:
             # print(obj)
             if obj not in self.root.objects:
                 raise ValueError("{} is not an object in the tree.".format(obj))
-            print("\n\nStart seeking for object {}:".format(obj))
-            self.root._trail_iter(obj)
+            print("\n\nStart seeking for utterances that fit object {}:".format(obj))
+            self.root._trail_iter_object(obj)
+
+
+    def trail_utter(self, instance):
+        node = self.categorize(instance)
+        print(node.rational_listener)
+
+        utterances = list(instance.values())
+        print("The utterances entered are:", utterances)
+        for utter in utterances:
+            if utter not in self.root.utterances:
+                raise ValueError("{} is not an utternace in the tree.".format(utter))
+        print("\n\nStart seeking for objects that fit the utterance(s) {}:".format(utterances))
+        node._trail_iter_utter(instance)
+
+
 

@@ -38,7 +38,6 @@ def add_shared_key(instances, new_key):
 			tracking_dict[values] = count
 			instance[new_key] = "M%d" % count
 			count += 1
-			# tracking_dict[values] = tracking_dict.values() + 1
 
 	print(tracking_dict)
 
