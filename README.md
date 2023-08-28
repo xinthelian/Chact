@@ -80,3 +80,7 @@ When displaying the trail with some given utterance(s), like `scaly` and `poison
 
 We offer the example script `./mushroom_chact.py` with the preprocessing of mushroom data.
 
+
+### Acknowledgements
+
+Thanks to [Chris MacLellan](https://chrismaclellan.com/) (and all the potential contributors of the `concept-formation` repo - Erik Harpstead, Lane Lawley, etc.) for their commitment of the original Cobweb modules.
