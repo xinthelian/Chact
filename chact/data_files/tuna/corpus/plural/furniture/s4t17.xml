@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE TRIAL SYSTEM "furniture.dtd">
+<TRIAL CARDINALITY="2" CONDITION="+LOC" DOMAIN="furniture" ID="s4t17" SIMILARITY="dissimilar">
+  <DOMAIN>
+    <ENTITY ID="47" IMAGE="sofaRightGreyLarge.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="96" IMAGE="deskRightRedSmall.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="45" IMAGE="sofaRightBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="111" IMAGE="sofaRightGreySmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="102" IMAGE="sofaFrontGreenSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="94" IMAGE="deskRightGreenSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="32" IMAGE="deskRightRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="86" IMAGE="deskFrontGreenSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+  </DOMAIN>
+  <STRING-DESCRIPTION>
+		The two pieces of furniture in the bottom right corner.
+	</STRING-DESCRIPTION>
+  <DESCRIPTION NUM="plural"><DET ID="408" VALUE="definite">The</DET><DET ID="507" VALUE="numeral">two</DET><ATTRIBUTE ID="a1" NAME="type" VALUE="other">
+			pieces of furniture
+		</ATTRIBUTE>
+		in the
+		<META-ATTRIBUTE ID="a145" NAME="location" VALUE="bottom"><ATTRIBUTE ID="a2" NAME="y-dimension" VALUE="unknown"/>
+			bottom
+		</META-ATTRIBUTE><META-ATTRIBUTE ID="a147" NAME="location" VALUE="right"><ATTRIBUTE ID="a3" NAME="x-dimension" VALUE="unknown"/>
+			right
+		</META-ATTRIBUTE>
+		corner .
+	</DESCRIPTION>
+  <ATTRIBUTE-SET>
+    <ATTRIBUTE ID="a3" NAME="x-dimension" VALUE="unknown"/>
+    <ATTRIBUTE ID="a2" NAME="y-dimension" VALUE="unknown"/>
+    <ATTRIBUTE ID="a1" NAME="type" VALUE="other"></ATTRIBUTE>
+  </ATTRIBUTE-SET>
+</TRIAL>

@@ -1,0 +1,7 @@
+,M11,M27,costs,entropy
+white,1.0,0.0,0.0,0.0
+gray,0.0,1.0,0.0,0.0
+prior,0.5,0.5,,
+alpha,6.0, , , 
+entropy,0.0,0.0,,
+entropy_sum,0.0, , , 

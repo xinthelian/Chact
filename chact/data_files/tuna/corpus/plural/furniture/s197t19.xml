@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<!DOCTYPE TRIAL SYSTEM "furniture.dtd">
+<TRIAL CARDINALITY="2" CONDITION="+LOC" DOMAIN="furniture" ID="s197t19" SIMILARITY="dissimilar">
+  <DOMAIN>
+    <ENTITY ID="30" IMAGE="deskRightGreenLarge.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="4"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="98" IMAGE="sofaBackGreenSmall.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="2"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+    <ENTITY ID="18" IMAGE="deskBackGreenLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+    <ENTITY ID="94" IMAGE="deskRightGreenSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="85" IMAGE="deskFrontBlueSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="4"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+    <ENTITY ID="110" IMAGE="sofaRightGreenSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+    <ENTITY ID="34" IMAGE="sofaBackGreenLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="101" IMAGE="sofaFrontBlueSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+  </DOMAIN>
+  <STRING-DESCRIPTION>
+		small green setty at the middle and the green big desk at the
+		bottom
+	</STRING-DESCRIPTION>
+  <DESCRIPTION NUM="plural"><DESCRIPTION NUM="singular"><ATTRIBUTE ID="a1" NAME="size" VALUE="small">
+				small
+			</ATTRIBUTE><ATTRIBUTE ID="a2" NAME="colour" VALUE="green">
+				green
+			</ATTRIBUTE><ATTRIBUTE ID="a3" NAME="type" VALUE="sofa">
+				setty
+			</ATTRIBUTE><META-ATTRIBUTE ID="a174" NAME="location" VALUE="middle"><ATTRIBUTE ID="a4" NAME="y-dimension" VALUE="2"/>
+				at
+				<![CDATA[the]]>
+				middle
+			</META-ATTRIBUTE></DESCRIPTION>
+		and
+		<DESCRIPTION NUM="singular"><DET ID="91" VALUE="definite">the</DET><ATTRIBUTE ID="a5" NAME="colour" VALUE="green">
+				green
+			</ATTRIBUTE><ATTRIBUTE ID="a6" NAME="size" VALUE="large">big</ATTRIBUTE><ATTRIBUTE ID="a7" NAME="type" VALUE="desk">desk</ATTRIBUTE><META-ATTRIBUTE ID="a179" NAME="location" VALUE="bottom"><ATTRIBUTE ID="a8" NAME="y-dimension" VALUE="3"/>
+				at
+				<![CDATA[the]]>
+				bottom
+			</META-ATTRIBUTE></DESCRIPTION></DESCRIPTION>
+  <ATTRIBUTE-SET>
+    <ATTRIBUTE ID="a8" NAME="y-dimension" VALUE="3"/>
+    <ATTRIBUTE ID="a7" NAME="type" VALUE="desk"></ATTRIBUTE>
+    <ATTRIBUTE ID="a6" NAME="size" VALUE="large"></ATTRIBUTE>
+    <ATTRIBUTE ID="a5" NAME="colour" VALUE="green"></ATTRIBUTE>
+    <ATTRIBUTE ID="a4" NAME="y-dimension" VALUE="2"/>
+    <ATTRIBUTE ID="a3" NAME="type" VALUE="sofa"></ATTRIBUTE>
+    <ATTRIBUTE ID="a2" NAME="colour" VALUE="green"></ATTRIBUTE>
+    <ATTRIBUTE ID="a1" NAME="size" VALUE="small"></ATTRIBUTE>
+  </ATTRIBUTE-SET>
+</TRIAL>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE TRIAL SYSTEM "furniture.dtd">
+<TRIAL CARDINALITY="2" CONDITION="+LOC" DOMAIN="furniture" ID="s1t20" SIMILARITY="dissimilar">
+  <DOMAIN>
+    <ENTITY ID="50" IMAGE="fanBackGreenLarge.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="fan"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="72" IMAGE="chairFrontRedSmall.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="58" IMAGE="fanLeftGreenLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="fan"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="52" IMAGE="fanBackRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="fan"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="114" IMAGE="fanBackGreenSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="fan"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="68" IMAGE="chairBackRedSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="69" IMAGE="chairFrontBlueSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+    <ENTITY ID="8" IMAGE="chairFrontRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="unknown"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="unknown"/>
+    </ENTITY>
+  </DOMAIN>
+  <STRING-DESCRIPTION>
+		The large green fan facing back and the red chair in the middle
+		row
+	</STRING-DESCRIPTION>
+  <DESCRIPTION NUM="plural"><DESCRIPTION NUM="singular"><DET ID="134" VALUE="definite">The</DET><ATTRIBUTE ID="a1" NAME="size" VALUE="large">
+				large
+			</ATTRIBUTE><ATTRIBUTE ID="a2" NAME="colour" VALUE="green">
+				green
+			</ATTRIBUTE><ATTRIBUTE ID="a3" NAME="type" VALUE="fan">fan</ATTRIBUTE><ATTRIBUTE ID="a4" NAME="orientation" VALUE="back">
+				facing back
+			</ATTRIBUTE></DESCRIPTION>
+		and
+		<DESCRIPTION NUM="singular"><DET ID="158" VALUE="definite">the</DET>
+			red
+			<ATTRIBUTE ID="a5" NAME="type" VALUE="chair">
+				chair
+			</ATTRIBUTE><META-ATTRIBUTE ID="a168" NAME="location" VALUE="middle"><ATTRIBUTE ID="a6" NAME="y-dimension" VALUE="unknown"/>
+				in the middle row
+			</META-ATTRIBUTE></DESCRIPTION></DESCRIPTION>
+  <ATTRIBUTE-SET>
+    <ATTRIBUTE ID="a6" NAME="y-dimension" VALUE="unknown"/>
+    <ATTRIBUTE ID="a5" NAME="type" VALUE="chair"></ATTRIBUTE>
+    <ATTRIBUTE ID="a4" NAME="orientation" VALUE="back"></ATTRIBUTE>
+    <ATTRIBUTE ID="a3" NAME="type" VALUE="fan"></ATTRIBUTE>
+    <ATTRIBUTE ID="a2" NAME="colour" VALUE="green"></ATTRIBUTE>
+    <ATTRIBUTE ID="a1" NAME="size" VALUE="large"></ATTRIBUTE>
+  </ATTRIBUTE-SET>
+</TRIAL>

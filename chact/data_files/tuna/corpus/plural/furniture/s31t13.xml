@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE TRIAL SYSTEM "furniture.dtd">
+<TRIAL CARDINALITY="2" CONDITION="+LOC" DOMAIN="furniture" ID="s31t13" SIMILARITY="similar">
+  <DOMAIN>
+    <ENTITY ID="77" IMAGE="chairRightBlueSmall.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+    <ENTITY ID="109" IMAGE="sofaRightBlueSmall.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+    <ENTITY ID="69" IMAGE="chairFrontBlueSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="1"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="13" IMAGE="chairRightBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="2"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="10" IMAGE="chairLeftGreenLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="2"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+    <ENTITY ID="101" IMAGE="sofaFrontBlueSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="2"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+    <ENTITY ID="45" IMAGE="sofaRightBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="4"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="42" IMAGE="sofaLeftGreenLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+  </DOMAIN>
+  <STRING-DESCRIPTION>
+		the one to the top, second from the left and the one in the
+		middle, right most
+	</STRING-DESCRIPTION>
+  <DESCRIPTION NUM="plural"><DESCRIPTION NUM="singular"><DET ID="3329" VALUE="definite">the</DET><ATTRIBUTE ID="a1" NAME="type" VALUE="other">one</ATTRIBUTE><META-ATTRIBUTE ID="a220" NAME="location" VALUE="top"><ATTRIBUTE ID="a2" NAME="y-dimension" VALUE="1"/>
+				to the top
+			</META-ATTRIBUTE>
+			,
+			<META-ATTRIBUTE ID="a222" NAME="location" VALUE="left"><ATTRIBUTE ID="a3" NAME="x-dimension" VALUE="3"/>
+				second from the left
+			</META-ATTRIBUTE></DESCRIPTION>
+		and
+		<DESCRIPTION NUM="singular"><DET ID="3330" VALUE="definite">the</DET><ATTRIBUTE ID="a4" NAME="type" VALUE="other">one</ATTRIBUTE><META-ATTRIBUTE ID="a225" NAME="location" VALUE="middle"><ATTRIBUTE ID="a5" NAME="y-dimension" VALUE="2"/>
+				in the middle
+			</META-ATTRIBUTE>
+			,
+			<META-ATTRIBUTE ID="a227" NAME="location" VALUE="right"><ATTRIBUTE ID="a6" NAME="x-dimension" VALUE="5"/>
+				right most
+			</META-ATTRIBUTE></DESCRIPTION></DESCRIPTION>
+  <ATTRIBUTE-SET>
+    <ATTRIBUTE ID="a6" NAME="x-dimension" VALUE="5"/>
+    <ATTRIBUTE ID="a5" NAME="y-dimension" VALUE="2"/>
+    <ATTRIBUTE ID="a4" NAME="type" VALUE="other"></ATTRIBUTE>
+    <ATTRIBUTE ID="a3" NAME="x-dimension" VALUE="3"/>
+    <ATTRIBUTE ID="a2" NAME="y-dimension" VALUE="1"/>
+    <ATTRIBUTE ID="a1" NAME="type" VALUE="other"></ATTRIBUTE>
+  </ATTRIBUTE-SET>
+</TRIAL>

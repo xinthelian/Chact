@@ -1,0 +1,7 @@
+,M39,M33,costs,entropy
+urban,1.0,0.0,0.0,0.0
+convex,0.0,1.0,0.0,0.0
+prior,0.333,0.333,,
+alpha,4.0, , , 
+entropy,0.0,0.0,,
+entropy_sum,0.0, , , 

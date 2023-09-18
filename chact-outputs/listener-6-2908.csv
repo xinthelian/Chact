@@ -1,0 +1,9 @@
+,M9,M3,costs,entropy
+brown,1.0,0.0,0.0,0.0
+fibrous,1.0,0.0,0.0,0.0
+gray,0.0,1.0,0.0,0.0
+smooth,0.0,1.0,0.0,0.0
+prior,0.5,0.5,,
+alpha,6.0, , , 
+entropy,0.0,0.0,,
+entropy_sum,0.0, , , 

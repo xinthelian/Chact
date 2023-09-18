@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!DOCTYPE TRIAL SYSTEM "furniture.dtd">
+<TRIAL CARDINALITY="2" CONDITION="-LOC" DOMAIN="furniture" ID="s192t10" SIMILARITY="similar">
+  <DOMAIN>
+    <ENTITY ID="84" IMAGE="deskBackRedSmall.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="4"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+    <ENTITY ID="100" IMAGE="sofaBackRedSmall.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+    <ENTITY ID="20" IMAGE="deskBackRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="2"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+    <ENTITY ID="24" IMAGE="deskFrontRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="29" IMAGE="deskRightBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="1"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+    <ENTITY ID="36" IMAGE="sofaBackRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="40" IMAGE="sofaFrontRedLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="red"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="1"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+    <ENTITY ID="45" IMAGE="sofaRightBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+  </DOMAIN>
+  <STRING-DESCRIPTION>
+		A small red three seater setee that is facing away from me and a
+		small red desk that is also facing away from me
+	</STRING-DESCRIPTION>
+  <DESCRIPTION NUM="plural"><DESCRIPTION NUM="singular"><DET ID="1" VALUE="indefinite">A</DET><ATTRIBUTE ID="a1" NAME="size" VALUE="small">
+				small
+			</ATTRIBUTE><ATTRIBUTE ID="a2" NAME="colour" VALUE="red">red</ATTRIBUTE><ATTRIBUTE ID="a3" NAME="other" VALUE="other">
+				three seater
+			</ATTRIBUTE><ATTRIBUTE ID="a4" NAME="type" VALUE="sofa">
+				setee
+			</ATTRIBUTE><ATTRIBUTE ID="a5" NAME="orientation" VALUE="back">
+				that is facing away from me
+			</ATTRIBUTE></DESCRIPTION>
+		and
+		<DESCRIPTION NUM="singular"><DET ID="1" VALUE="indefinite">a</DET><ATTRIBUTE ID="a6" NAME="size" VALUE="small">
+				small
+			</ATTRIBUTE><ATTRIBUTE ID="a7" NAME="colour" VALUE="red">red</ATTRIBUTE><ATTRIBUTE ID="a8" NAME="type" VALUE="desk">desk</ATTRIBUTE><ATTRIBUTE ID="a9" NAME="orientation" VALUE="back">
+				that is also facing away from me
+			</ATTRIBUTE></DESCRIPTION></DESCRIPTION>
+  <ATTRIBUTE-SET>
+    <ATTRIBUTE ID="a9" NAME="orientation" VALUE="back"></ATTRIBUTE>
+    <ATTRIBUTE ID="a8" NAME="type" VALUE="desk"></ATTRIBUTE>
+    <ATTRIBUTE ID="a7" NAME="colour" VALUE="red"></ATTRIBUTE>
+    <ATTRIBUTE ID="a6" NAME="size" VALUE="small"></ATTRIBUTE>
+    <ATTRIBUTE ID="a5" NAME="orientation" VALUE="back"></ATTRIBUTE>
+    <ATTRIBUTE ID="a4" NAME="type" VALUE="sofa"></ATTRIBUTE>
+    <ATTRIBUTE ID="a3" NAME="other" VALUE="other"></ATTRIBUTE>
+    <ATTRIBUTE ID="a2" NAME="colour" VALUE="red"></ATTRIBUTE>
+    <ATTRIBUTE ID="a1" NAME="size" VALUE="small"></ATTRIBUTE>
+  </ATTRIBUTE-SET>
+</TRIAL>

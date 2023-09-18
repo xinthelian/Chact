@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!DOCTYPE TRIAL SYSTEM "people.dtd">
+<TRIAL CARDINALITY="2" CONDITION="+LOC" DOMAIN="people" ID="s320t35"
+	SIMILARITY="similar">
+	<DOMAIN>
+		<ENTITY ID="30" IMAGE="Hormander.gif" TYPE="target">
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5" />
+			<ATTRIBUTE NAME="age" TYPE="literal" VALUE="old" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front" />
+			<ATTRIBUTE NAME="hairColour" TYPE="literal" VALUE="light" />
+			<ATTRIBUTE NAME="hasSuit" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasShirt" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasTie" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasBeard" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasGlasses" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasHair" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+		</ENTITY>
+		<ENTITY ID="18" IMAGE="Eilenberg.gif" TYPE="target">
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="4" />
+			<ATTRIBUTE NAME="age" TYPE="literal" VALUE="old" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left" />
+			<ATTRIBUTE NAME="hairColour" TYPE="literal" VALUE="light" />
+			<ATTRIBUTE NAME="hasSuit" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasShirt" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasTie" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasBeard" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasGlasses" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasHair" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+		</ENTITY>
+		<ENTITY ID="87" IMAGE="Whitney.gif" TYPE="distractor">
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5" />
+			<ATTRIBUTE NAME="age" TYPE="literal" VALUE="young" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front" />
+			<ATTRIBUTE NAME="hairColour" TYPE="literal" VALUE="dark" />
+			<ATTRIBUTE NAME="hasSuit" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasShirt" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasTie" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasBeard" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasGlasses" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasHair" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+		</ENTITY>
+		<ENTITY ID="88" IMAGE="Witten.gif" TYPE="distractor">
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="1" />
+			<ATTRIBUTE NAME="age" TYPE="literal" VALUE="young" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front" />
+			<ATTRIBUTE NAME="hairColour" TYPE="literal" VALUE="dark" />
+			<ATTRIBUTE NAME="hasSuit" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasShirt" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasTie" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasBeard" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasGlasses" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasHair" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+		</ENTITY>
+		<ENTITY ID="89" IMAGE="Walker_Arthur.gif" TYPE="distractor">
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3" />
+			<ATTRIBUTE NAME="age" TYPE="literal" VALUE="young" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right" />
+			<ATTRIBUTE NAME="hairColour" TYPE="literal" VALUE="dark" />
+			<ATTRIBUTE NAME="hasSuit" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasShirt" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasTie" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasBeard" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasGlasses" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasHair" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+		</ENTITY>
+		<ENTITY ID="11" IMAGE="Fefferman.gif" TYPE="distractor">
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="1" />
+			<ATTRIBUTE NAME="age" TYPE="literal" VALUE="young" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front" />
+			<ATTRIBUTE NAME="hairColour" TYPE="literal" VALUE="dark" />
+			<ATTRIBUTE NAME="hasSuit" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasShirt" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasTie" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasBeard" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasGlasses" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasHair" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+		</ENTITY>
+		<ENTITY ID="63" IMAGE="Deligne.gif" TYPE="distractor">
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3" />
+			<ATTRIBUTE NAME="age" TYPE="literal" VALUE="young" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left" />
+			<ATTRIBUTE NAME="hairColour" TYPE="literal" VALUE="dark" />
+			<ATTRIBUTE NAME="hasSuit" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasShirt" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasTie" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasBeard" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasGlasses" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasHair" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+		</ENTITY>
+		<ENTITY ID="14" IMAGE="Zelmanov.gif" TYPE="distractor">
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5" />
+			<ATTRIBUTE NAME="age" TYPE="literal" VALUE="young" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front" />
+			<ATTRIBUTE NAME="hairColour" TYPE="literal" VALUE="dark" />
+			<ATTRIBUTE NAME="hasSuit" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasShirt" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasTie" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasBeard" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="hasGlasses" TYPE="boolean" VALUE="0" />
+			<ATTRIBUTE NAME="hasHair" TYPE="boolean" VALUE="1" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="person" />
+		</ENTITY>
+	</DOMAIN>
+	<STRING-DESCRIPTION>
+		The second and third men with beards in the second row
+	</STRING-DESCRIPTION>
+	<DESCRIPTION NUM="plural">
+		<DET ID="36" VALUE="definite">The</DET>
+		<DESCRIPTION NUM="plural">
+			<DESCRIPTION NUM="singular">
+				<META-ATTRIBUTE ID="a90" NAME="location"
+					VALUE="other">
+					<ATTRIBUTE ID="a1" NAME="x-dimension" VALUE="4" />
+					second
+				</META-ATTRIBUTE>
+			</DESCRIPTION>
+			and
+			<DESCRIPTION NUM="singular">
+				<META-ATTRIBUTE ID="a92" NAME="location"
+					VALUE="other">
+					<ATTRIBUTE ID="a2" NAME="x-dimension" VALUE="5" />
+					third
+				</META-ATTRIBUTE>
+			</DESCRIPTION>
+		</DESCRIPTION>
+		<ATTRIBUTE ID="a3" NAME="type" VALUE="person">men</ATTRIBUTE>
+		<ATTRIBUTE ID="a4" NAME="hasBeard" VALUE="1">
+			with beards
+		</ATTRIBUTE>
+		<META-ATTRIBUTE ID="a96" NAME="location" VALUE="other">
+			<ATTRIBUTE ID="a5" NAME="y-dimension" VALUE="2" />
+			in the second row
+		</META-ATTRIBUTE>
+	</DESCRIPTION>
+	<ATTRIBUTE-SET>
+		<ATTRIBUTE ID="a5" NAME="y-dimension" VALUE="2" />
+		<ATTRIBUTE ID="a4" NAME="hasBeard" VALUE="1"></ATTRIBUTE>
+		<ATTRIBUTE ID="a3" NAME="type" VALUE="person"></ATTRIBUTE>
+		<ATTRIBUTE ID="a2" NAME="x-dimension" VALUE="5" />
+		<ATTRIBUTE ID="a1" NAME="x-dimension" VALUE="4" />
+	</ATTRIBUTE-SET>
+</TRIAL>

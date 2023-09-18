@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE TRIAL SYSTEM "furniture.dtd">
+<TRIAL CARDINALITY="2" CONDITION="-LOC" DOMAIN="furniture" ID="s62t19"
+	SIMILARITY="dissimilar">
+	<DOMAIN>
+		<ENTITY ID="30" IMAGE="deskRightGreenLarge.gif" TYPE="target">
+			<ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk" />
+			<ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5" />
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3" />
+		</ENTITY>
+		<ENTITY ID="98" IMAGE="sofaBackGreenSmall.gif" TYPE="target">
+			<ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa" />
+			<ATTRIBUTE NAME="size" TYPE="literal" VALUE="small" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5" />
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2" />
+		</ENTITY>
+		<ENTITY ID="18" IMAGE="deskBackGreenLarge.gif"
+			TYPE="distractor">
+			<ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk" />
+			<ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3" />
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3" />
+		</ENTITY>
+		<ENTITY ID="94" IMAGE="deskRightGreenSmall.gif"
+			TYPE="distractor">
+			<ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk" />
+			<ATTRIBUTE NAME="size" TYPE="literal" VALUE="small" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5" />
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1" />
+		</ENTITY>
+		<ENTITY ID="85" IMAGE="deskFrontBlueSmall.gif"
+			TYPE="distractor">
+			<ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk" />
+			<ATTRIBUTE NAME="size" TYPE="literal" VALUE="small" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="4" />
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1" />
+		</ENTITY>
+		<ENTITY ID="110" IMAGE="sofaRightGreenSmall.gif"
+			TYPE="distractor">
+			<ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa" />
+			<ATTRIBUTE NAME="size" TYPE="literal" VALUE="small" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="1" />
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1" />
+		</ENTITY>
+		<ENTITY ID="34" IMAGE="sofaBackGreenLarge.gif"
+			TYPE="distractor">
+			<ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa" />
+			<ATTRIBUTE NAME="size" TYPE="literal" VALUE="large" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3" />
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2" />
+		</ENTITY>
+		<ENTITY ID="101" IMAGE="sofaFrontBlueSmall.gif"
+			TYPE="distractor">
+			<ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue" />
+			<ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front" />
+			<ATTRIBUTE NAME="type" TYPE="literal" VALUE="sofa" />
+			<ATTRIBUTE NAME="size" TYPE="literal" VALUE="small" />
+			<ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="1" />
+			<ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3" />
+		</ENTITY>
+	</DOMAIN>
+	<STRING-DESCRIPTION>
+		obects of the last column except top desk
+	</STRING-DESCRIPTION>
+	<DESCRIPTION NUM="plural">
+		<ATTRIBUTE ID="a1" NAME="type" VALUE="other">obects</ATTRIBUTE>
+		<META-ATTRIBUTE ID="a143" NAME="location" VALUE="other">
+			<ATTRIBUTE ID="a2" NAME="x-dimension" VALUE="5" />
+			of the last column
+		</META-ATTRIBUTE>
+		<META-ATTRIBUTE ID="a145" NAME="location" POLARITY="neg"
+			VALUE="other">
+			<ATTRIBUTE ID="a3" NAME="y-dimension" VALUE="1" />
+			<ATTRIBUTE ID="a4" NAME="x-dimension" VALUE="4" />
+			except top desk
+		</META-ATTRIBUTE>
+	</DESCRIPTION>
+	<ATTRIBUTE-SET>
+		<ATTRIBUTE ID="a4" NAME="x-dimension" VALUE="4" />
+		<ATTRIBUTE ID="a3" NAME="y-dimension" VALUE="1" />
+		<ATTRIBUTE ID="a2" NAME="x-dimension" VALUE="5" />
+		<ATTRIBUTE ID="a1" NAME="type" VALUE="other"></ATTRIBUTE>
+	</ATTRIBUTE-SET>
+</TRIAL>

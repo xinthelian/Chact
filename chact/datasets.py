@@ -7,9 +7,11 @@ from __future__ import print_function
 from __future__ import unicode_literals
 from __future__ import absolute_import
 from __future__ import division
+import os
 from os.path import dirname
 from os.path import join
 import json
+import xml.etree.ElementTree as ET
 
 from chact.data_files.generate_quadruped import generate_animals
 
@@ -542,3 +544,54 @@ def load_molecule(num_instances=None):
      'chiral': True}
     """
     return _load_json('molecule.json', num_instances)
+
+
+def parse_tuna(file):
+    # load the XML file:
+    tree = ET.parse(file)
+    root = tree.getroot()
+
+    instances = []
+    for entity in root.findall(".//ENTITY"):
+        instance = {
+        "object": entity.get("ID"),
+        "classification": entity.get("TYPE"),
+        }
+        for attr in entity.findall(".//ATTRIBUTE"):
+            instance[attr.get("NAME")] = attr.get("VALUE")
+        instances.append(instance)
+    return instances
+
+
+def load_tuna(num_trials=None, classification=False, plural=False, type='furniture'):
+    """
+    Load the TUNA corpus.
+    """
+    if plural:
+        folder_path = os.getcwd() + f"/chact/data_files/tuna/corpus/plural/{type}"
+    else:
+        folder_path = os.getcwd() + f"/chact/data_files/tuna/corpus/singular/{type}"
+    # print(os.getcwd())
+    # folder_path = os.path.join(os.getcwd(), folder_path)
+    if not os.path.exists(folder_path):
+        print(f"The folder '{folder_path}' does not exist.")
+        return
+
+    xml_files = [file for file in os.listdir(folder_path) if file.endswith(".xml")]
+    if num_trials is not None:
+        xml_files = xml_files[:num_trials]
+
+    trials = []
+    for xml_file in xml_files:
+        file_path = os.path.join(folder_path, xml_file)
+        instances = parse_tuna(file_path)
+        for instance in instances:
+            if instance.get("classification") == "target":
+                target = instance.get("object")
+                break
+        if not classification:
+            for instance in instances:
+                del instance['classification']
+        trials.append({'id': xml_file, "target": target, "instances": instances})
+    return trials
+        

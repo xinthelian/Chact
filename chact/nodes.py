@@ -807,9 +807,9 @@ class chactNode(chaiNode):
 				self.costs[utter] = 0.0
 			# self.costs = [0.0] * len(self.utterances)
 		else:
-			if len(costs) != len(self.utterances):
+			if len(self.costs) != len(self.utterances):
 				raise ValueError("The number of costs given is not aligned with the number of utterances within the node.")
-			self.costs = costs
+			# self.costs = costs
 
 		if not rsa:
 			# Activate CHAI framework.
@@ -879,14 +879,22 @@ class chactNode(chaiNode):
 			self.listener.to_csv(listener_file, index=True)
 
 
-	def _trail_iter_object(self, obj):
+	def _trail_iter_object(self, obj, second=False):
 		# Used for trail function in chactTree
 		if obj in self.rational_listener.columns:
 			listener = self.rational_listener.iloc[:-4, :-2]
 			# print(listener)
 			utter = pd.to_numeric(listener[obj]).idxmax()
 			prob = listener.loc[utter, obj]
+			if second:
+				# utter_2 = listener[pd.to_numeric(listener[obj]) == pd.to_numeric(listener[obj]).nlargest(2).iloc[-1]].index[0]
+				utter_2 = pd.to_numeric(listener[obj]).argsort()[::-1][1]
+				utter_2 = listener.index[utter_2]
+				# print(utter_2)
+				prob_2 = listener.loc[utter_2, obj]
 			print("--> Level {}, chactNode {}, utterance {}, probability {}.".format(self.level(), self.concept_id, utter, prob))
+			if second:
+				print("\tutterance {}, probability {}.".format(utter_2, prob_2))
 			if prob == 1.:
 				if self.count == 1:
 					print("    Note that, this is the only object for this node.")
@@ -898,7 +906,8 @@ class chactNode(chaiNode):
 		else:
 			for child in self.children:
 				if obj in child.objects:
-					child._trail_iter_object(obj)
+					child._trail_iter_object(obj, second=second)
+
 
 	def _trail_iter_utter(self, inst):
 

@@ -195,7 +195,7 @@ class chactTree(object):
         return self._cobweb_categorize(instance)
     	
 
-    def chai(self, verbose=True, rsa=False):
+    def chai(self, verbose=True, rsa=False, clear_first=False):
         """
         The core functionality of the CHAI framework.
         """
@@ -208,10 +208,14 @@ class chactTree(object):
             # print(sequence_id)
 
             for node in tqdm(sequence, desc="Processing", unit="item"):
+                if clear_first:
+                    node.costs = None
                 node.chai_activate(include_obj=self.chai_obj, rsa=rsa)
         else:
             for node in sequence:
-            	node.chai_activate(include_obj=self.chai_obj, rsa=rsa)
+                if clear_first:
+                    node.costs = None
+                node.chai_activate(include_obj=self.chai_obj, rsa=rsa)
 
 
     def display_chai(self, depth_first=False, level=None):
@@ -272,7 +276,7 @@ class chactTree(object):
         print("The files are named in the format 'lexicon/listener/speaker-level-concept_id'.")
 
 
-    def trail_object(self, obj):
+    def trail_object(self, obj, second=False):
 
         def is_iterable(variable):
             try:
@@ -289,18 +293,18 @@ class chactTree(object):
                     raise ValueError("{} is not an object in the tree.".format(i))
                 print("\n\nStart seeking for utterances that fit object {}:".format(i))
                 # print("Original {}:", )
-                self.root._trail_iter_object(i)
+                self.root._trail_iter_object(i, second=second)
         else:
             # print(obj)
             if obj not in self.root.objects:
                 raise ValueError("{} is not an object in the tree.".format(obj))
             print("\n\nStart seeking for utterances that fit object {}:".format(obj))
-            self.root._trail_iter_object(obj)
+            self.root._trail_iter_object(obj, second=second)
 
 
     def trail_utter(self, instance):
         node = self.categorize(instance)
-        print(node.rational_listener)
+        # print(node.rational_listener)
 
         utterances = list(instance.values())
         print("The utterances entered are:", utterances)

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!DOCTYPE TRIAL SYSTEM "furniture.dtd">
+<TRIAL CARDINALITY="2" CONDITION="+LOC" DOMAIN="furniture" ID="s393t16" SIMILARITY="dissimilar">
+  <DOMAIN>
+    <ENTITY ID="27" IMAGE="deskLeftGreyLarge.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="left"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="2"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="7" IMAGE="chairFrontGreyLarge.gif" TYPE="target">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="front"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+    <ENTITY ID="31" IMAGE="deskRightGreyLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="3"/>
+    </ENTITY>
+    <ENTITY ID="17" IMAGE="deskBackBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+    <ENTITY ID="94" IMAGE="deskRightGreenSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="desk"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="3"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+    <ENTITY ID="15" IMAGE="chairRightGreyLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="grey"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="2"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+    <ENTITY ID="1" IMAGE="chairBackBlueLarge.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="blue"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="back"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="large"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="5"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="2"/>
+    </ENTITY>
+    <ENTITY ID="78" IMAGE="chairRightGreenSmall.gif" TYPE="distractor">
+      <ATTRIBUTE NAME="colour" TYPE="literal" VALUE="green"/>
+      <ATTRIBUTE NAME="orientation" TYPE="literal" VALUE="right"/>
+      <ATTRIBUTE NAME="type" TYPE="literal" VALUE="chair"/>
+      <ATTRIBUTE NAME="size" TYPE="literal" VALUE="small"/>
+      <ATTRIBUTE NAME="x-dimension" TYPE="gradable" VALUE="1"/>
+      <ATTRIBUTE NAME="y-dimension" TYPE="gradable" VALUE="1"/>
+    </ENTITY>
+  </DOMAIN>
+  <STRING-DESCRIPTION>
+		grey chair above a blue chair and grey table below a green table
+		at the bottom left of screen
+	</STRING-DESCRIPTION>
+  <DESCRIPTION NUM="plural"><DESCRIPTION NUM="singular"><ATTRIBUTE ID="a1" NAME="colour" VALUE="grey">
+				grey
+			</ATTRIBUTE><ATTRIBUTE ID="a2" NAME="type" VALUE="chair">
+				chair
+			</ATTRIBUTE><META-ATTRIBUTE ID="a100" NAME="location" REL="1" VALUE="other"><ATTRIBUTE ID="a3" NAME="y-dimension" VALUE="1"/><ATTRIBUTE ID="a4" NAME="x-dimension" VALUE="5"/>
+				above a
+				<ATTRIBUTE ID="a5" NAME="colour" VALUE="blue">
+					blue
+				</ATTRIBUTE><ATTRIBUTE ID="a6" NAME="type" VALUE="chair">
+					chair
+				</ATTRIBUTE></META-ATTRIBUTE></DESCRIPTION>
+		and
+		<DESCRIPTION NUM="singular"><ATTRIBUTE ID="a7" NAME="colour" VALUE="grey">
+				grey
+			</ATTRIBUTE><ATTRIBUTE ID="a8" NAME="type" VALUE="desk">
+				table
+			</ATTRIBUTE><META-ATTRIBUTE ID="a107" NAME="location" REL="94" VALUE="other"><ATTRIBUTE ID="a9" NAME="y-dimension" VALUE="3"/><ATTRIBUTE ID="a10" NAME="x-dimension" VALUE="2"/>
+				below a
+				<ATTRIBUTE ID="a11" NAME="colour" VALUE="green">
+					green
+				</ATTRIBUTE><ATTRIBUTE ID="a12" NAME="type" VALUE="desk">
+					table
+				</ATTRIBUTE></META-ATTRIBUTE>
+			at the
+			<META-ATTRIBUTE ID="a110" NAME="location" VALUE="bottom"><ATTRIBUTE ID="a13" NAME="y-dimension" VALUE="3"/>
+				bottom
+			</META-ATTRIBUTE><META-ATTRIBUTE ID="a112" NAME="location" VALUE="left"><ATTRIBUTE ID="a14" NAME="x-dimension" VALUE="2"/>
+				left
+			</META-ATTRIBUTE>
+			of screen
+		</DESCRIPTION></DESCRIPTION>
+  <ATTRIBUTE-SET>
+    <ATTRIBUTE ID="a14" NAME="x-dimension" VALUE="2"/>
+    <ATTRIBUTE ID="a13" NAME="y-dimension" VALUE="3"/>
+    <ATTRIBUTE ID="a12" NAME="type" VALUE="desk"></ATTRIBUTE>
+    <ATTRIBUTE ID="a11" NAME="colour" VALUE="green"></ATTRIBUTE>
+    <ATTRIBUTE ID="a10" NAME="x-dimension" VALUE="2"/>
+    <ATTRIBUTE ID="a9" NAME="y-dimension" VALUE="3"/>
+    <ATTRIBUTE ID="a8" NAME="type" VALUE="desk"></ATTRIBUTE>
+    <ATTRIBUTE ID="a7" NAME="colour" VALUE="grey"></ATTRIBUTE>
+    <ATTRIBUTE ID="a6" NAME="type" VALUE="chair"></ATTRIBUTE>
+    <ATTRIBUTE ID="a5" NAME="colour" VALUE="blue"></ATTRIBUTE>
+    <ATTRIBUTE ID="a4" NAME="x-dimension" VALUE="5"/>
+    <ATTRIBUTE ID="a3" NAME="y-dimension" VALUE="1"/>
+    <ATTRIBUTE ID="a2" NAME="type" VALUE="chair"></ATTRIBUTE>
+    <ATTRIBUTE ID="a1" NAME="colour" VALUE="grey"></ATTRIBUTE>
+  </ATTRIBUTE-SET>
+</TRIAL>

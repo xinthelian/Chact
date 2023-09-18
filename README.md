@@ -78,7 +78,7 @@ When displaying the trail with some given utterance(s), like `scaly` and `poison
 
 ### Implementation Example
 
-We offer the example script `./mushroom_chact.py` with the preprocessing of mushroom data.
+We offer the example script `./mushroom_chact.py` with the preprocessing of the [Mushroom](https://archive.ics.uci.edu/dataset/73/mushroom) data, and the example script `tuna_chact.py` with the [TUNA Corpus](https://www.abdn.ac.uk/ncs/departments/computing-science/corpus-496.php).
 
 
 ### Acknowledgements
